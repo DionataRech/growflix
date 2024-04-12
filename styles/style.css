@@ -1,0 +1,130 @@
+.logo-growflix {
+  height: 28px;
+}
+
+.opacity {
+  background-color: rgba(0, 135, 254, 0);
+}
+
+.background-img1 {
+  background-image: url(../assets/images/banner-initial.png);
+  background-attachment: fixed;
+  background-size: auto;
+}
+.background-img2 {
+  background-image: url(../assets/images/growcast-01.png);
+  background-size: 100vw 100vh;
+}
+
+.tittle {
+  font-size: 5em;
+  font-weight: bold;
+  margin-bottom: -20px;
+}
+.tittle2 {
+  font-size: 5em;
+}
+
+.sub-tittle {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.container-header {
+  height: 67vh;
+}
+
+.bg-black {
+  background-color: black !important;
+}
+
+.btn-danger {
+  background-color: #e50914 !important;
+  color: white !important;
+  padding: 20px 35px !important;
+  font-weight: 700 !important;
+  font-size: 25px !important;
+  padding: 20px 35px !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:visited {
+  color: white !important;
+  text-decoration: none;
+}
+.a-home:hover {
+  color: #ff8534 !important;
+  text-decoration: none;
+}
+
+.btn-danger:hover {
+  background-color: #b6060f !important;
+  color: #ffffff !important;
+}
+
+.text-2 {
+  color: #757575;
+}
+
+.accordion-button {
+  color: white !important;
+  background-color: #303030 !important;
+  font-size: 0.8em !important;
+  padding: 3% !important;
+}
+
+#acordion-size {
+  width: 43vw !important;
+}
+
+.accordion-button::after {
+  background-image: url(../images/add.svg) !important;
+}
+.accordion-collapse {
+  border-color: black !important;
+}
+
+.accordion-item {
+  border-color: black !important;
+  margin: 5px;
+}
+
+.header {
+  height: 60vh;
+}
+
+.btn-light {
+  width: 6vw;
+}
+
+.img-home {
+  height: 16vh;
+  width: 15vw;
+  margin-top: 8px;
+}
+
+.svg-icon {
+  margin-right: 10px;
+}
+.show-body > div > div > div {
+  display: none;
+
+  width: 350px;
+}
+
+.show-body:hover > div > div > div {
+  display: block;
+}
+
+.show-body:hover > div > div {
+  z-index: 999;
+  width: 350px;
+  position: absolute;
+}
+
+.show-body:hover > div > div {
+  transition: all 0.5s ease-out;
+}

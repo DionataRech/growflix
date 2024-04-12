@@ -1,0 +1,155 @@
+const movies = [
+  {
+    title: "Growcast #00 | ",
+    description: "Conheça a Growdev",
+    code: "aJ-HZuLcKeA",
+    category: "GrowCast",
+  },
+  {
+    title: "Growcast #01  ",
+    description: " As profissões do futuro",
+    code: "7OWT3lfHYvE",
+    category: "GrowCast",
+  },
+  {
+    title: "Growcast #02",
+    description: "Como seguir a carreira internacional?",
+    code: "ci1eQGPK89o",
+    category: "GrowCast",
+  },
+  {
+    title: "Growcast #03",
+    description: "Superando os desafios da carreira de Dev!",
+    code: "WM7pGG7OicQ",
+    category: "GrowCast",
+  },
+  {
+    title: "Growcast #04",
+    description: "Agile Master: tudo sobre a profissão!",
+    code: "2c8VOBZ160Y",
+    category: "GrowCast",
+  },
+  {
+    title: "Growcast #05",
+    description: "Como iniciar na carreira em Desenvolvimento de Softwares?",
+    code: "mxnEm03cYPc",
+    category: "GrowCast",
+  },
+  {
+    title: "Growcast #06",
+    description: "Mulheres e inclusão na tecnologia",
+    code: "m7DyR07KrOE",
+    category: "GrowCast",
+  },
+  {
+    title: "Growcast #07",
+    description: "Desenvolvendo profissionais na área de TI",
+    code: "vW8G9KPwRL0",
+    category: "GrowCast",
+  },
+  {
+    title: "Growcast #08",
+    description: "A solução que está transformando o mercado de TI no Brasil",
+    code: "_Ut2KqAqPyk",
+    category: "GrowCast",
+  },
+  {
+    title: "Growcast #09",
+    description:
+      " Acompanhe com quem realmente entende, tudo sobre o mercado de trabalho no mundo da TI.",
+    code: "dfDgs0Ive2Q",
+    category: "GrowCast",
+  },
+  {
+    title: "Webinar",
+    description: "Recriando a interface do Linkedin com Flutter",
+    code: "WKbLXuP9S-c",
+    category: "growFlutter",
+  },
+  {
+    title: "Webinar",
+    description: "Recriando a interface do Instagram com Flutter",
+    code: "dJ6y1zMjVXU",
+    category: "growFlutter",
+  },
+  {
+    title: "Webinar ",
+    description: "Recriando a interface do iFood com Flutter",
+    code: "8rdJsqUjsGg",
+    category: "growFlutter",
+  },
+  {
+    title: "Webinar ",
+    description: "Recriando a interface do PicPay com Flutter",
+    code: "C4p_7qBsECw",
+    category: "growFlutter",
+  },
+  {
+    title: "Webinar ",
+    description: "Recriando o layout do WhatsApp com Flutter",
+    code: "L1pKoMC6hWk",
+    category: "growFlutter",
+  },
+  {
+    title: "Live #5 Jornada UX/UI",
+    description: "O UX/UI Design é para todos?",
+    code: "FiZMowbaiJA",
+    category: "growUxui",
+  },
+  {
+    title: "Live #4 Jornada UX/UI",
+    description: "Como migrar para o UX/UI Design",
+    code: "cwqDu0ZzbYE",
+    category: "growUxui",
+  },
+  {
+    title: "Live #3 Jornada UX/UI",
+    description:
+      " As oportunidades de estudar um programa de formação pagando após formado",
+    code: "ZMZjQ9aRuIY",
+    category: "growUxui",
+  },
+  {
+    title: "Live #1 Jornada UX/UI",
+    description:
+      "O papel do UX/UI Designer no desenvolvimento de um produto digital - Growdev",
+    code: "-26aqPtgoEY",
+    category: "growUxui",
+  },
+  {
+    title: "Live #5 Jornada UX/UI",
+    description: "O UX/UI Design é para todos?",
+    code: "FiZMowbaiJA",
+    category: "growUxui",
+  },
+  {
+    title: "Célula de talentos",
+    description: "Uma solução Growdev",
+    code: "QsuhYgsSYQo",
+    category: "growDiversos",
+  },
+  {
+    title: "Como é o dia a dia de um dev?",
+    description: "Live Growdev com Marcelo Eltz",
+    code: "ouDn8z3PSqs",
+    category: "growDiversos",
+  },
+  {
+    title: "Onde trabalhar com qualidade de software?",
+    description: "Conheça a Testing Company, empresa parceira da Growdev",
+    code: "cQDQNX6NXYo",
+    category: "growDiversos",
+  },
+  {
+    title: "WEBINAR ANALISTA DE DADOS ",
+    description: "com Paulo Marcon da Arezzo&Co",
+    code: "nKGbolkirBM",
+    category: "growDiversos",
+  },
+  {
+    title: " Ricardo Pinho",
+    description: "Tecnologia trazendo soluções para a Arezzo & CO",
+    code: "6sZPsqNjeek",
+    category: "growDiversos",
+  },
+];
