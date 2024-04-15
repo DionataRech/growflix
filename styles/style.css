@@ -109,22 +109,39 @@ a:visited {
 .svg-icon {
   margin-right: 10px;
 }
-.show-body > div > div > div {
-  display: none;
 
-  width: 350px;
+.show-body {
+  transition: all 0.5s ease-out;
 }
 
-.show-body:hover > div > div > div {
+.show-body > div {
+  display: none;
+}
+
+.show-body:hover {
+  width: 500px;
+  position: absolute;
+  z-index: 999;
+  /* top: -50px; */
+}
+
+.show-body:hover > div {
   display: block;
 }
 
-.show-body:hover > div > div {
-  z-index: 999;
-  width: 350px;
-  position: absolute;
+.col-movie {
+  position: relative;
+  min-height: 340px;
 }
 
-.show-body:hover > div > div {
-  transition: all 0.5s ease-out;
+.div-quadrado {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  transition: all 2s ease-out;
+}
+
+.div-quadrado:hover {
+  height: 100px;
+  width: 100px;
 }

@@ -11,13 +11,13 @@ const groUxUi = document.getElementById("row-growUX/UI");
 const growDiversos = document.getElementById("row-growDiversos");
 
 function addCard(item) {
-  const htmlCard = `<div class="card col-md-3 show-body  col-3 m-1 bg-black text-light " style="width: 20rem">
+  const htmlCard = `<div class="col-md-3  col-movie col-3  bg-black text-light  ">
 
-      <div class="card-body  ">
-
-      <div class="card-4 ">
-
-          <img src="https://img.youtube.com/vi/${item.code}/sddefault.jpg" class="card-img-top" alt="..." />
+      <div class="show-body">
+      
+      <img src="https://img.youtube.com/vi/${item.code}/sddefault.jpg" class="card-img-top" alt="..." />
+      
+      <div class="card-body ">
 
           <h5 class="card-title  ">${item.title}</h5>
 
