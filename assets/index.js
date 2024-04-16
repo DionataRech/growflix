@@ -1,14 +1,27 @@
-// var cardHover = document.getElementById("cardHover");
-
-// cardHover.addEventListener("mouseover", function () {
-//   var modal = new bootstrap.Modal(document.getElementById("modalExemplo"));
-//   modal.show();
-// });
-
 const rowGrowdev = document.getElementById("row-growcast");
 const growFlutter = document.getElementById("row-growFlutter");
 const groUxUi = document.getElementById("row-growUX/UI");
 const growDiversos = document.getElementById("row-growDiversos");
+
+const modalMovie = new bootstrap.Modal("#modal-movie", {});
+
+const bodyMovie = document.getElementById("body-movie");
+
+function openModalMovie(code) {
+  bodyMovie.innerHTML = `
+  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/${code}?si=TqfyLioASyudbHXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+`;
+  modalMovie.show();
+}
+
+function openMovie(element) {
+  const link = element.getAttribute("data-link");
+  console.log(link);
+  iframeMovie.innerHTML = `
+    <iframe src="${link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  `;
+  openModalMovie.show();
+}
 
 function addCard(item) {
   const htmlCard = `<div class="col-md-3  col-movie col-3  bg-black text-light  ">
@@ -17,11 +30,11 @@ function addCard(item) {
       
       <img src="https://img.youtube.com/vi/${item.code}/sddefault.jpg" class="card-img-top" alt="..." />
       
-      <div class="card-body ">
+      <div class="card-body bg-black ">
 
-          <h5 class="card-title  ">${item.title}</h5>
+          <h5 class="card-title ">${item.title}</h5>
 
-                    
+          <button onclick="openModalMovie( '${item.code}')" class="btn">                  
 
                       <svg
                       class="svg-icon"
@@ -39,10 +52,8 @@ function addCard(item) {
                         d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"
                       ></path>
                       </svg>
+                      </button>
                       ${item.description}
-                     
-
-          <a href="https://www.youtube.com/watch?v=${item.code}" target="_blank" class="btn "></a>
 
                </div>
         </div>
