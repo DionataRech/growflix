@@ -81,7 +81,7 @@ a:visited {
 }
 
 .accordion-button::after {
-  background-image: url(../images/add.svg) !important;
+  background-image: url(../assets/images/add.svg) !important;
 }
 .accordion-collapse {
   border-color: black !important;
